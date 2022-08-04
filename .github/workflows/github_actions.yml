@@ -28,4 +28,4 @@ jobs:
           poetry run pytest
       - name: Run pytest-cov
         run: |
-          poetry run pytest-cov=mini_games
+          poetry run pytest --cov=mini-games
