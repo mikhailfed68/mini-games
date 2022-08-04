@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.10]
+        python-version: [3.9, 3.10]
     steps:
       - uses: actions/checkout@v2
       - name: Setup Python3
@@ -28,4 +28,4 @@ jobs:
           poetry run pytest
       - name: Run pytest-cov
         run: |
-          poetry run pytest-cov=mini-games
+          poetry run pytest-cov=mini_games
