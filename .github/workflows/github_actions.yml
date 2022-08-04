@@ -1,0 +1,31 @@
+name: Github Actions
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python3
+        uses: actions/set-python@v2
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install poetry
+          poetry install
+          poetry check
+      - name: Run flake8 and pytest
+        run: |
+          poetry run flake8
+          poetry run pytest
+      - name: Run pytest-cov
+        run: |
+          poetry run pytest-cov=mini-games
