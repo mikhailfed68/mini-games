@@ -8,7 +8,7 @@ test:
 	poetry run pytest
 
 test-cov:
-	poetry run pytest --cov=mini-games
+	poetry run pytest --cov=mini_games
 
 selfcheck:
 	poetry check
