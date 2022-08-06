@@ -1,7 +1,7 @@
 import random
 
 
-def get_even_num_question():
+def get_even_num_example():
     RULES = 'Задача на определение четности числа'
 
     num = random.randint(1, 1000)

@@ -5,7 +5,7 @@ from operator import sub
 from operator import floordiv
 
 
-def get_calculator_question():
+def get_calculator_example():
     RULES = 'Задача на базовые математические операции с числами'
     MATCH_SIGNS = (
         ('+', add),
