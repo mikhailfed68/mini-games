@@ -18,12 +18,12 @@ def start_game():
     mistakes_count = 0
     while rounds_count < 5 and mistakes_count <= 2:
         question, right_answer, RULES = list_games.get_game()
-        print(f'Раунд {rounds_count}/5, Ошибок: {mistakes_count}')
-        print(f'\n{RULES}')
+        print(f'\nРаунд {rounds_count}/5, Ошибок: {mistakes_count}')
+        print(f'{RULES}')
         print(question)
         if is_right_answer(right_answer, cli.get_user_answer()) is False:
             mistakes_count += 1
         rounds_count += 1
     if mistakes_count == 3:
-        return f'\nК сожалению, это фиаско {username} ;) Но ты можешь попытаться снова!' # noqa
+        return print(f'\nК сожалению, это фиаско {username} ;) Но ты можешь попытаться снова!') # noqa
     return print(f'\nПоздравляю! {username}')
