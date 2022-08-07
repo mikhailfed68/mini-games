@@ -26,4 +26,4 @@ def start_game():
         rounds_count += 1
     if mistakes_count == 3:
         return print(f'\nК сожалению, это фиаско {username} ;) Но ты можешь попытаться снова!') # noqa
-    return print(f'\nПоздравляю! {username}')
+    return print(f'\nПоздравляю, {username}!')
