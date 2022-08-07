@@ -12,6 +12,9 @@ pytest = "^7.1"
 flake8 = "^5.0.4"
 pytest-cov = "^3.0.0"
 
+[tool.poetry.scripts]
+start-game = "mini_games.scripts.start_game:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
