@@ -16,7 +16,7 @@ def start_game():
     cli.get_rules()
     rounds_count = 1
     mistakes_count = 0
-    while rounds_count < 5 and mistakes_count <= 2:
+    while rounds_count <= 5 and mistakes_count <= 2:
         question, right_answer, RULES = list_games.get_game()
         print(f'\nРаунд {rounds_count}/5, Ошибок: {mistakes_count}')
         print(f'{RULES}')
