@@ -31,5 +31,5 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
-          coverageCommand: poetry run pytest --cov=hexlet_python_package --cov-report xml
+          coverageCommand: poetry run pytest -vv --cov=mini_games --cov-report xml tests/
           debug: true
