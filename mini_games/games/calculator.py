@@ -6,7 +6,7 @@ from operator import floordiv
 
 
 def get_calculator_example():
-    RULES = 'Задача на базовые математические операции с числами'
+    RULES = 'Задача на базовые математические операции с числами (Ответ - это целое число)' # noqa
     MATCH_SIGNS = (
         ('+', add),
         ('*', mul),
