@@ -4,11 +4,13 @@ import random
 def is_prime(num):
     if num < 2:
         return 'Нет'
-    else:
-        for divider in range(2, (num + 1) // 2):
-            if num % divider == 0:
-                return 'Нет'
-        return 'Да'
+
+    divider = 2
+    while divider <= num // 2:
+        if num % divider == 0:
+            return 'Нет'
+        divider += 1
+    return 'Да'
 
 
 def get_prime_num_example():
