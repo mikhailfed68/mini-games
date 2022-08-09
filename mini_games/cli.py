@@ -12,8 +12,10 @@ def get_rules():
     2) Тебе нужно пройти все 5 задач
     3) Также у тебя есть право на две ошибки
     ''')
-    input('Нажми Enter, что бы начать')
-    return None
+
+
+def get_start_or_exit():
+    return input('Нажми Enter, что бы начать (Или введите "Выйти", что бы закрыть игру) ') # noqa
 
 
 def get_username():
