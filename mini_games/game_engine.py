@@ -14,6 +14,9 @@ def start_game():
     cli.get_greet()
     username = cli.get_username()
     cli.get_rules()
+    if cli.get_start_or_exit() == 'Выйти':
+        return None
+
     rounds_count = 1
     mistakes_count = 0
     while rounds_count <= 5 and mistakes_count <= 2:
