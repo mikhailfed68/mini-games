@@ -23,4 +23,5 @@ To install the package, run:
 
 ### Launch the game
 To start the game, run the following command in your terminal:
+
 [![asciicast](https://asciinema.org/a/o6pyR19dri0t7z98x1DVWnmir.svg)](https://asciinema.org/a/o6pyR19dri0t7z98x1DVWnmir)
