@@ -15,4 +15,12 @@ Mini-games - это консольная мини-игра, которая со�
 
 ## Installation
 
+To install the package, run:
+
+    pip install -i https://test.pypi.org/simple --extra-index-url https://pypi.org/simple mini-games
+
 ## Usage
+
+### Launch the game
+To start the game, run the following command in your terminal:
+[![asciicast](https://asciinema.org/a/o6pyR19dri0t7z98x1DVWnmir.svg)](https://asciinema.org/a/o6pyR19dri0t7z98x1DVWnmir)
