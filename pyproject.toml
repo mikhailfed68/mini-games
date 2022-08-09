@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mini-games"
-version = "1.0.0"
+version = "1.0.1"
 description = "Набор из пяти математических мини-игр"
 license = "MIT"
 authors = ["Michael Fedorov <mikhailfedorov1939@gmail.com>"]
