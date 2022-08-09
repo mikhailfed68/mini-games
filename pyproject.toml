@@ -7,6 +7,9 @@ authors = ["Michael Fedorov <mikhailfedorov1939@gmail.com>"]
 readme = "README.md"
 homepage = "https://github.com/MichaelFed68/mini-games"
 repository = "https://github.com/MichaelFed68/mini-games"
+classifiers = [
+    "Topic :: Games/Entertainment",
+]
 packages = [
     { include = "mini_games" },
 ]
