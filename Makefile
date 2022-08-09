@@ -18,4 +18,8 @@ check: selfcheck lint test
 build: check
 	poetry build
 
-.PHONY: install lint test test-cov selfcheck check build
+publish: check
+	poetry config repositories.testpypi https://test.pypi.org/legacy/
+	poetry publish -r testpypi --build
+
+.PHONY: install lint test test-cov selfcheck check build publish
