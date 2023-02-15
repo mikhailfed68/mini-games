@@ -14,6 +14,9 @@ Mini-games is a console mini-game consisting of five generated math challenges. 
 - Determining a prime number.
 
 ## Installation
+This package is available on TestPyPi:
+
+> https://test.pypi.org/project/mini-games/
 
 To install the package, run:
 
