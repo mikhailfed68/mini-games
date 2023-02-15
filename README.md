@@ -4,14 +4,14 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/2241b8e2dfb7d0a2197e/maintainability)](https://codeclimate.com/github/MichaelFed68/mini-games/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2241b8e2dfb7d0a2197e/test_coverage)](https://codeclimate.com/github/MichaelFed68/mini-games/test_coverage)
 
-Mini-games - это консольная мини-игра, которая состоит за пяти генерируемых математических задач. На каждую задачу вам нужно дать правильный ответ. У вас есть право на две ошибки.
+Mini-games is a console mini-game consisting of five generated math challenges. For each challenge you have to give the correct answer. You have the right to make two mistakes.
 
-### Список задач:
-- Арифметические выражения, которые необходимо вычислить.
-- Поиск пропущенных чисел в последовательности чисел.
-- Определение четного числа.
-- Определение наибольшего общего делителя.
-- Определение простого числа.
+### Challenge list:
+- Arithmetic expressions to be calculated.
+- Finding missing numbers in a sequence of numbers.
+- Determining an even number.
+- Finding the largest common divisor.
+- Determining a prime number.
 
 ## Installation
 
